@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday 🎁</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="pagewrap">
+        <nav class="navigation container">
+            <div class="nav-items">
+                <div class="nav-repo">
+                    <a href="https://github.com/pavan000-code/lucky-birthday" target="_blank" class="nav-link">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                </div>
+                <h1 class="nav-title">LUCKY BIRTHDAY 🎁</h1>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="main-privacy">
+                <div class="close">
+                    <span id="remove" role="img" aria-labelledby="crossIcon">❌</span>
+                </div>
+                    <strong>
+                    Privacy Notice!!
+                </strong>
+                We won't store your personal details.
+            </div>
+            <div class="main-data">
+                <form id="main-form">
+                   <label for="name">Name</label>
+                   <input type="text" name="userName" id="name" required="required" placeholder="eg. James Bond">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="BirthDate" id="dob" required>
+                    <label for="luckynumber">Lucky Number</label>
+                    <input type="number" name="LuckyNumber" id="luckynumber" required>
+                    <div class="buton">
+                        <button type="submit" id="btn-submit">CHECK</button>
+                        <button id="btn-reset">RESET</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="lucky-div">
+                <p id="main-msg-luck"></p>
+                <img id="image-luck" src="https://c.tenor.com/XpFCi7Fr0scAAAAC/peachcat-cute.gif" alt="lucky-birthday">
+            </div>
+            <div class="unlucky-div">
+                <p id="main-msg-unluck">Your birthday isn't lucky</p>
+                <img id="image-unluck" src="https://c.tenor.com/frEURr7NABYAAAAC/kittycass-peachcat.gif" alt="not-lucky-birthday">
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-tagline">
+                <h2>Made with love by Pavan Kalyan.Available on:</h2>
+            </div>
+            <ul class="footer-socials">
+                <li class="footer-inline">
+                    <a class="footer-links" rel="noopener noreferrer" href="https://github.com/pavan000-code">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                </li>
+                <li class="footer-inline">
+                    <a class="footer-links" target="_blank" rel="noopener noreferrer"
+                        href="https://twitter.com/pavankalyan002">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
